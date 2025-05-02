@@ -1,7 +1,5 @@
 <?php
 
-$api_key = "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";
-
 $data = json_decode(file_get_contents("php://input"), true);
 $prompt = isset($data['message']) ? $data['message'] : '';
 
